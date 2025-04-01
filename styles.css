@@ -1,3 +1,11 @@
+* {
+  box-sizing: border-box;
+}
+
+body{
+  background-color: rgb(255, 0, 162);
+}
+
 /* HEADER */
 header {
   display: flex;
@@ -25,7 +33,6 @@ header {
 
 /* MAIN */
 section {
-  height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -33,58 +40,19 @@ section {
   gap: 25px;
 }
 
-.hero {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 20px;
-}
-
-.heroText {
-  width: 50%;
-}
-
-.heroImg {
-  width: 50%;
-  border: 1px solid black;
-}
-
-.projects {
-  height: 100vh;
-
+.pokeCard,
+.displayCatFact {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  border: 2px solid black;
+  width: 800px;
+  background-color: blanchedalmond;
 }
 
-.projectCard {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 20px;
-}
-
-.card {
-  border: 3px solid black;
-  border-radius: 10px;
-  max-width: 300px;
-
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.form {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-/* Submit Message */
-.submitMessage {
-  color: forestgreen;
+.pokeCard img {
+  width: 100%;
 }
 
 /* FOOTER */
